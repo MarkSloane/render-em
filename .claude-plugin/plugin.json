@@ -1,0 +1,11 @@
+{
+  "name": "render-em",
+  "description": "Turn text into animated presentations and video clips. Two modes: Slides (HTML decks + PPTX) and Motion (HTML animations + ProRes/MP4).",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mark Sloane"
+  },
+  "homepage": "https://github.com/MarkSloane/render-em",
+  "repository": "https://github.com/MarkSloane/render-em",
+  "license": "MIT"
+}

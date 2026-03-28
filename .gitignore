@@ -1,0 +1,8 @@
+render-em-output/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+_temp_frames/
+stills/
+video/

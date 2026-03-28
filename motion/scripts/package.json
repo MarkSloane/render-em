@@ -1,0 +1,8 @@
+{
+  "name": "render-em-motion",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "dependencies": {
+    "puppeteer": "^24.40.0"
+  }
+}
