@@ -32,6 +32,21 @@ git clone https://github.com/MarkSloane/render-em.git
 claude --plugin-dir path/to/render-em
 ```
 
+### Cowork installation
+
+Download the pre-built zip for the skill you want:
+
+- [`render-em-slides.zip`](dist/render-em-slides.zip) -- animated slide decks with PPTX export
+- [`render-em-motion.zip`](dist/render-em-motion.zip) -- animated video clips (ProRes/MP4)
+
+Then in Cowork:
+
+1. Go to **Settings > Features > Skills**
+2. Click **"+"**
+3. Upload the zip file
+
+The skill will be available immediately -- say `/render-em-slides` or `/render-em-motion` to start.
+
 ### Manual install
 
 Copy the skills into your personal skills folder:
@@ -213,6 +228,9 @@ HTML/CSS animation → Puppeteer (frame-by-frame at 29.97fps) → FFmpeg → Pro
 render-em/
   .claude-plugin/
     plugin.json               # Plugin manifest
+  dist/
+    render-em-slides.zip      # Cowork-ready slides skill
+    render-em-motion.zip      # Cowork-ready motion skill
   slides/
     SKILL.md                  # Slide generation skill
     scripts/
