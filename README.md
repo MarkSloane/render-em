@@ -9,9 +9,17 @@ Render-em is a [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plu
 
 One brand. Two output modes. Three words to explain it: "Render them out."
 
-### Example output (Slides)
+### Example output
 
 Generated from a [44-line product launch review](slides/examples/demo-content.txt):
+
+![Title Card](docs/examples/title-card.gif)
+
+![Stat Cards](docs/examples/stat-cards.gif)
+
+![Bar Comparison](docs/examples/bar-comparison.gif)
+
+### Static slides
 
 | | |
 |---|---|
